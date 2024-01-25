@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Mikołaj Gapiński - projektowanie stron www</title>
+	<meta name="description" content="Profesjonalne tworzenie stron WWW, Wordpress - Mikołaj Gapiński">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;400;700&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<script src="https://kit.fontawesome.com/7b6b7b51eb.js" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		
+		function open_about() {
+			document.getElementById("slide").style.left = "0";
+			// document.getElementById("slide").style.color = "white";
+			// document.getElementsByTagName('body')[0].style.overflow = 'hidden';
+		}
+
+		function close_about() {
+			document.getElementById("slide").style.left = "100%";
+			// document.getElementById("slide").style.color = "black";
+			// document.getElementsByTagName('body')[0].style.overflow = 'visible';
+
+		}
+
+	</script>
+
+
+
+
+</head>
+
+
+<body>
+
+
+	<div id="container">
+
+		<header>
+
+
+				<span class="credits name">Mikołaj Feliks Gapiński</span>
+				<span class="credits mail">mfgapinski<strong class="green">[at]</strong>gmail.com</span>
+
+			<div class="title">
+				<h1>
+				Nowoczesna witryna?<br>
+				To <strong class="green bold">Twoja</strong> decyzja.
+				</h1>
+			</div>
+
+
+			<a class="arrow" href="#main">
+				<!-- <img src="images/arrow.svg"> -->
+
+				<!-- <span class="material-symbols-outlined">expand_more</span> -->
+				<!-- <i class="material-icons">arrow_downward</i> -->
+				<i class="fa-solid fa-chevron-down"></i>
+			</a>
+
+
+		</header>
+
+
+		<main id="main">
+
+			<div class="content text text1">
+				
+				<p>Twoja strona może być dostosowana do wymagań dzisiejszego rynku. Albo może przedstawiać Twoją ofertę w najlepszym świetle. Albo wszystko na raz.</p>
+				<a href="#offer_scroll"><button>Oferta</button></a>
+
+			</div>
+
+			<img class="content img img1" src="images/devices.png">
+
+			<div class="content text text2">
+				<p>Jestem młodym programistą, z otwartym umysłem i świeżym spojrzeniem na branżę.</p>
+				<a href="javascript:void(0)" onclick="open_about()"><button>O mnie</button></a>
+			</div>
+
+			<img class="content img img2" src="images/proud_coder.png">
+
+			<!-- <div id="offer_scroll"></div> -->
+
+			<div class="offer" id="offer_scroll">
+				<h2>Moja propozycja dla Ciebie</h2>
+				<ul>
+					<li>Zaprojektuję i stworzę od podstaw Twoją stronę internetową</li>
+					<li>Zajmę się wdrożeniem witryny na serwer, skonfiguruję i przygotuję do eksploatacji</li>
+					<li>Służę radą i wsparciem na każdym etapie produkcji oraz w trakcie użytkowania witryny</li>
+
+				</ul>
+
+
+				<p>Mogę także zmodernizować Twoją obecną stronę WWW lub uaktualnić jej treść.</p>
+
+
+			</div>
+
+
+
+
+
+
+
+			<div class="my_work">
+				<h2>Wybrane realizacje</h2>
+				<div class="projects_wrapper">
+
+					<div class="project">
+						<!-- <a href="https://liceum-wabrzezno.pl" target="_blank"> -->
+							<div class="project_img_container">
+								<div class="overlay"></div>
+								<img class="project_img" src="images/liceum.jpg">
+							</div>
+						<!-- </a> -->
+
+						<p>Liceum Ogólnokształcące w Wąbrzeźnie</p>
+					</div>
+
+					<div class="project">
+						<!-- <a href="https://mlodziezowarada.wabrzezno.com" target="_blank"> -->
+							<div class="project_img_container">
+								<div class="overlay"></div>
+								<img class="project_img" src="images/mrw.jpg">
+							</div>
+						<!-- </a> -->
+
+						<p>Młodzieżowa Rada Wąbrzeźna</p>
+					</div>
+
+
+				</div>
+
+			</div>
+
+
+			<div class="action">
+				<h1>Co powiesz na współpracę?</h1>
+				<a href="#contact_scroll"><button>Napisz do mnie</button></a>
+
+			</div>
+
+
+
+			<div class="line"></div>
+
+			<div class="content text contact">
+				Mikołaj Feliks Gapiński<br>
+				mfgapinski<strong class="green">[at]</strong>gmail.com<br>
+				<!-- +48 788 654 512 -->
+				<div class="social">
+					<a href="https://facebook.com/faelern" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+					<a href="https://www.instagram.com/mikolaj_gapinski/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+				</div>
+			</div>
+
+			<img class="content img contact_img" src="images/contact2.png">
+
+			<div id="contact_scroll"></div>
+
+
+
+			
+
+		</main>
+
+	</div>
+
+
+	<div id="slide">
+
+		<a href="javascript:void(0)" class="close_button slide_content" onclick="close_about()">
+			<i class="fa-solid fa-chevron-left"></i>
+		</a>
+
+		<div class="text slide_content slide_title"><h1>Mikołaj Feliks Gapiński</h1></div>
+		<div class="text slide_content slide_desc">
+			Jestem absolwentem Liceum Ogólnokształcącego w Wąbrzeźnie, obecnie studiuję na Politechnice Gdańskiej. W wolnych chwilach projektuję strony internetowe i tworzę aplikacje internetowe.
+		</div>
+		
+
+
+		
+	</div>
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
