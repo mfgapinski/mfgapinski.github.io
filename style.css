@@ -64,21 +64,20 @@ button {
 	}
 }
 
+@media (hover: hover) {
+	button:hover {
+		background-color: #00BFA6;
+		color: white;
+		cursor: pointer;
+		padding: 22px 44px;
+		margin-top: 16px;
 
-button:hover {
-	background-color: #00BFA6;
-	color: white;
-	cursor: pointer;
-	padding: 22px 44px;
-	margin-top: 16px;
-
-	-moz-transition: .2s;
-	-o-transition: .2s;
-	-webkit-transition: .2s;
-	transition: .2s;
+		-moz-transition: .2s;
+		-o-transition: .2s;
+		-webkit-transition: .2s;
+		transition: .2s;
+	}
 }
-
-
 
 h1 {
 	font-size: 30px;
